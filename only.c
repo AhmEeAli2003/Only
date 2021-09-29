@@ -92,7 +92,8 @@ void less_million(int number)
 }
 void only(int number)
 {
-    if(number < 1000000) less_million(number);
+    if(number == 0) printf("zero ");
+    else if(number < 1000000) less_million(number);
     else
     {
         less_million(number/1000000);
@@ -100,4 +101,3 @@ void only(int number)
         less_million(number%1000000);
     }
 }
-
