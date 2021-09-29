@@ -14,6 +14,7 @@ void main(void)
     printf("Please number: ");
     scanf("%d",&number);
     only(number);
+    printf("only");
 }
 void ones(int number)
 {
